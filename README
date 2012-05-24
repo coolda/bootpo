@@ -1,0 +1,21 @@
+/* README */
+boot12rc2_64xfce.iso needed when booting
+Porteus V1.2 rc2 x86_64 installed in USB_pen
+from Apple.
+It works only if the machine has just 1 hdd
+and name of save.dat file to mysave.dat.
+If there is 2 hdd in the machine,
+then edit attached porteus.cfg 
+changes=/mnt/sdb1/mysave.dat  to
+changes=/mnt/sdc1/mysave.dat
+
+/* usage */
+1. Burn boot12rc2_64xfce.iso.
+   Do not use right click thing that will not
+   work for bootable CD.
+2. Insert USB_Pen_Drive, mount this CD 
+   restart and then keep push option key
+   till you see an arrow, 
+   then CD icon shows up, select this widows thing
+   using arrow key to the right, hit return.
+
